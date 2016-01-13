@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+
+    <documentation>
+        NodeJS duell library that provides the node executable and an NPM build API for managing npm dependencies.
+    </documentation>
+
+    <arg name="-setup" type="void">
+        <documentation>
+            Installs node and npm. Mandatory before using any other library feature.
+        </documentation>
+    </arg>
+
+    <arg name="-npm" type="any">
+        <documentation>
+            Runs npm with the arguments placed after. E.g. 'duell run nodejs -npm install electron-prebuilt --save-dev' will npm like 'npm install electron-prebuilt --save-dev'.
+        </documentation>
+    </arg>
+
+</plugin>
