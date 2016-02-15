@@ -6,7 +6,7 @@
 
     <xs:include schemaLocation="https://raw.githubusercontent.com/gameduell/duell/master/schema/common_schema.xsd" />
 
-    <xs:complexType name="sample">
+    <xs:complexType name="nodejs">
         <xs:sequence>
             <xs:element name="config-id" minOccurs="0" maxOccurs="1" type="d:Value"/>
         </xs:sequence>
